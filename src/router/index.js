@@ -2,6 +2,23 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBinding from '../views/DataBinding.vue'
 import DataBindingText from '../views/DataBindingText.vue'
+import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
+import DataBindingTextarea from '../views/DataBindingTextarea'
+import DataBindingSelect from '../views/DataBindingSelect'
+import DataBindingCheckbox from '../views/DataBindingCheckbox'
+import DataBindingCheckbox2 from '../views/DataBindingCheckbox2'
+import DataBindingRadio from '../views/DataBindingRadio'
+import DataBindingAttribue from '../views/DataBindingAttribue'
+import DataBindingButton from '../views/DataBindingButton'
+import DataBindingClass from '../views/DataBindingClass'
+import DataBindingClass2 from '../views/DataBindingClass2'
+import DataBindingStyle from '../views/DataBindingStyle'
+import DataBindingStyle2 from '../views/DataBindingStyle2'
+import DataBindingList from '../views/DataBindingList'
+import RenderingVIf from '../views/RenderingVIf'
+import EventClick from '../views/EventClick'
+import EventChange from '../views/EventChange'
+import TestPage from '../views/TestPage'
 
 const routes = [
   {
@@ -26,7 +43,92 @@ const routes = [
     path: '/databindingtext',
     name: 'DataBindingText',
     component: DataBindingText
-  }
+  },
+  {
+    path: '/databindinginputnumber',
+    name: 'DataBindingTextInputNumber',
+    component: DataBindingInputNumber
+  },
+  {
+    path: '/databindingtextarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
+  },
+  {
+    path: '/databindingselect',
+    name: 'DataBindingSelect',
+    component: DataBindingSelect
+  },
+  {
+    path: '/databindingcheckbox',
+    name: 'DataBindingCheckbox',
+    component: DataBindingCheckbox
+  },
+  {
+    path: '/databindingcheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
+  },
+  {
+    path: '/databindingradio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/databindingattribue',
+    name: 'DataBindingAttribue',
+    component: DataBindingAttribue
+  },
+  {
+    path: '/databindingbutton',
+    name: 'DataBindingButton',
+    component: DataBindingButton
+  },
+  {
+    path: '/databindingclass',
+    name : 'DataBindingClass',
+    component: DataBindingClass
+  },
+  {
+    path: '/databindingclass2',
+    name : 'DataBindingClass2',
+    component: DataBindingClass2
+  },
+  {
+    path: '/databindingstyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/databindingstyle2',
+    name: 'DataBindingStyle2',
+    component: DataBindingStyle2
+  },
+  {
+    path: '/databindinglist',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingvif',
+    name: 'RenderingVIf',
+    component: RenderingVIf
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventchange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/testpage',
+    name: 'TestPage',
+    component: TestPage
+  },
 ]
 
 const router = createRouter({
