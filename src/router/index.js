@@ -19,6 +19,7 @@ import DataBindingList2 from '../views/DataBindingList2'
 import RenderingVIf from '../views/RenderingVIf'
 import EventClick from '../views/EventClick'
 import EventChange from '../views/EventChange'
+import NestedComponent from '../views/NestedComponent'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -129,6 +130,11 @@ const routes = [
     path: '/eventchange',
     name: 'EventChange',
     component: EventChange
+  },
+  {
+    path: '/nestedcomponent',
+    name: 'NestedComponent',
+    component: NestedComponent
   },
   {
     path: '/testpage',

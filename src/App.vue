@@ -21,6 +21,7 @@
     <router-link to="/renderingvif">Rendering V If</router-link> |
     <router-link to="/eventclick">Event Click</router-link> |
     <router-link to="/eventchange">Event Change</router-link> |
+    <router-link to="/nestedcomponent">Nested Component</router-link> |
     <router-link to="/testpage">Test Page</router-link> |
   </nav>
   <router-view/>
