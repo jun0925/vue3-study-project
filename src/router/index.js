@@ -26,6 +26,7 @@ import ParentComponent3 from '../views/ParentComponent3'
 import ParentComponent4 from '../views/ParentComponent4'
 import ParentComponent5 from '../views/ParentComponent5'
 import ProvideInject from '../views/ProvideInject'
+import Calculator from '../views/Calculator'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -171,6 +172,11 @@ const routes = [
     path: '/provideinject',
     name: 'ProvideInject',
     component: ProvideInject
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: Calculator
   },
   {
     path: '/testpage',
