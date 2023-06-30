@@ -15,6 +15,7 @@ import DataBindingClass2 from '../views/DataBindingClass2'
 import DataBindingStyle from '../views/DataBindingStyle'
 import DataBindingStyle2 from '../views/DataBindingStyle2'
 import DataBindingList from '../views/DataBindingList'
+import DataBindingList2 from '../views/DataBindingList2'
 import RenderingVIf from '../views/RenderingVIf'
 import EventClick from '../views/EventClick'
 import EventChange from '../views/EventChange'
@@ -108,6 +109,11 @@ const routes = [
     path: '/databindinglist',
     name: 'DataBindingList',
     component: DataBindingList
+  },
+  {
+    path: '/databindinglist2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
   },
   {
     path: '/renderingvif',

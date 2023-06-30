@@ -17,6 +17,7 @@
     <router-link to="/databindingstyle">Data Binding Style</router-link> |
     <router-link to="/databindingstyle2">Data Binding Style2</router-link> |
     <router-link to="/databindingList">Data Binding List</router-link> |
+    <router-link to="/databindingList2">Data Binding List2</router-link> |
     <router-link to="/renderingvif">Rendering V If</router-link> |
     <router-link to="/eventclick">Event Click</router-link> |
     <router-link to="/eventchange">Event Change</router-link> |
