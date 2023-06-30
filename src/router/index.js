@@ -23,6 +23,7 @@ import NestedComponent from '../views/NestedComponent'
 import ParentComponent from '../views/ParentComponent'
 import ParentComponent2 from '../views/ParentComponent2'
 import ParentComponent3 from '../views/ParentComponent3'
+import ParentComponent4 from '../views/ParentComponent4'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -153,6 +154,11 @@ const routes = [
     path: '/parentcomponent3',
     name: 'ParentComponent3',
     component: ParentComponent3
+  },
+  {
+    path: '/parentcomponent4',
+    name: 'ParentComponent4',
+    component: ParentComponent4
   },
   {
     path: '/testpage',
