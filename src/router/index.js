@@ -22,6 +22,7 @@ import EventChange from '../views/EventChange'
 import NestedComponent from '../views/NestedComponent'
 import ParentComponent from '../views/ParentComponent'
 import ParentComponent2 from '../views/ParentComponent2'
+import ParentComponent3 from '../views/ParentComponent3'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -147,6 +148,11 @@ const routes = [
     path: '/parentcomponent2',
     name: 'ParentComponent2',
     component: ParentComponent2
+  },
+  {
+    path: '/parentcomponent3',
+    name: 'ParentComponent3',
+    component: ParentComponent3
   },
   {
     path: '/testpage',

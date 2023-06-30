@@ -24,6 +24,7 @@
     <router-link to="/nestedcomponent">Nested Component</router-link> |
     <router-link to="/parentcomponent">Parent Component</router-link> |
     <router-link to="/parentcomponent2">Parent Component2</router-link> |
+    <router-link to="/parentcomponent3">Parent Component3</router-link> |
     <router-link to="/testpage">Test Page</router-link> |
   </nav>
   <router-view/>
