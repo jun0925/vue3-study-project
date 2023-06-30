@@ -24,6 +24,7 @@ import ParentComponent from '../views/ParentComponent'
 import ParentComponent2 from '../views/ParentComponent2'
 import ParentComponent3 from '../views/ParentComponent3'
 import ParentComponent4 from '../views/ParentComponent4'
+import ParentComponent5 from '../views/ParentComponent5'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -159,6 +160,11 @@ const routes = [
     path: '/parentcomponent4',
     name: 'ParentComponent4',
     component: ParentComponent4
+  },
+  {
+    path: '/parentcomponent5',
+    name: 'ParentComponent5',
+    component: ParentComponent5
   },
   {
     path: '/testpage',
