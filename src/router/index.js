@@ -20,6 +20,7 @@ import RenderingVIf from '../views/RenderingVIf'
 import EventClick from '../views/EventClick'
 import EventChange from '../views/EventChange'
 import NestedComponent from '../views/NestedComponent'
+import ParentComponent from '../views/ParentComponent'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -135,6 +136,11 @@ const routes = [
     path: '/nestedcomponent',
     name: 'NestedComponent',
     component: NestedComponent
+  },
+  {
+    path: '/parentcomponent',
+    name: 'ParentComponent',
+    component: ParentComponent
   },
   {
     path: '/testpage',
