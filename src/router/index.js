@@ -28,6 +28,7 @@ import ParentComponent5 from '../views/ParentComponent5'
 import ProvideInject from '../views/ProvideInject'
 import Calculator from '../views/Calculator'
 import CalculatorCompositionAPI from '../views/CalculatorCompositionAPI'
+import CalculatorCompositionAPI2 from '../views/CalculatorCompositionAPI2'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -183,6 +184,11 @@ const routes = [
     path: '/calculatorcompositionapi',
     name: 'CalculatorCompositionAPI',
     component: CalculatorCompositionAPI
+  },
+  {
+    path: '/calculatorcompositionapi2',
+    name: 'CalculatorCompositionAPI2',
+    component: CalculatorCompositionAPI2
   },
   {
     path: '/testpage',
