@@ -29,6 +29,7 @@
     <router-link to="/parentcomponent5">Parent Component5</router-link> |
     <router-link to="/provideinject">Provide Inject</router-link> |
     <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/calculatorcompositionapi">Calculator Composition API</router-link> |
     <router-link to="/testpage">Test Page</router-link> |
   </nav>
   <router-view/>
