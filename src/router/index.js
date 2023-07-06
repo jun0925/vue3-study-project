@@ -31,6 +31,7 @@ import CalculatorCompositionAPI from '../views/CalculatorCompositionAPI'
 import CalculatorCompositionAPI2 from '../views/CalculatorCompositionAPI2'
 import CalculatorCompositionAPI3 from '../views/CalculatorCompositionAPI3'
 import CompositionAPIProvide from '../views/CompositionAPIProvide'
+import MixinsView from '../views/MixinsView'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -201,6 +202,11 @@ const routes = [
     path: '/compositionapiprovide',
     name: 'CompositionAPIProvide',
     component: CompositionAPIProvide
+  },
+  {
+    path: '/apimixin',
+    name: 'MixinsView',
+    component: MixinsView
   },
   {
     path: '/testpage',
