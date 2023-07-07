@@ -32,6 +32,7 @@
     <router-link to="/calculatorcompositionapi">Calculator Composition API</router-link> |
     <router-link to="/calculatorcompositionapi2">Calculator Composition API2</router-link> |
     <router-link to="/calculatorcompositionapi3">Calculator Composition API3</router-link> |
+    <router-link to="/compositionapiprovide">Composition API Provide</router-link> |
     <router-link to="/testpage">Test Page</router-link> |
   </nav>
   <router-view/>

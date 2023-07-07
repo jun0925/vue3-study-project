@@ -30,6 +30,7 @@ import Calculator from '../views/Calculator'
 import CalculatorCompositionAPI from '../views/CalculatorCompositionAPI'
 import CalculatorCompositionAPI2 from '../views/CalculatorCompositionAPI2'
 import CalculatorCompositionAPI3 from '../views/CalculatorCompositionAPI3'
+import CompositionAPIProvide from '../views/CompositionAPIProvide'
 import TestPage from '../views/TestPage'
 
 const routes = [
@@ -195,6 +196,11 @@ const routes = [
     path: '/calculatorcompositionapi3',
     name: 'CalculatorCompositionAPI3',
     component: CalculatorCompositionAPI3
+  },
+  {
+    path: '/compositionapiprovide',
+    name: 'CompositionAPIProvide',
+    component: CompositionAPIProvide
   },
   {
     path: '/testpage',
